@@ -1,0 +1,21 @@
+.wrapper {
+  width: 1920px;
+}
+
+.container {
+  margin: 0 4%;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.container>.link {
+  margin-right: 26px;
+  text-decoration: none;
+  color: #000;
+}
+
+.container>h3 {
+  margin-right: 457px;
+
+}
