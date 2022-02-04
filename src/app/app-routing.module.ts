@@ -15,6 +15,7 @@ const routes: Routes = [
   {path:'experience', component: ExperienceComponent},
   {path:'info&facts', component: InfoComponent},
   {path:'contact', component: ContactComponent},
+  {path: '**', redirectTo:'/main'}
 ];
 
 
