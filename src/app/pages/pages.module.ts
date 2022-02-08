@@ -6,6 +6,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { InfoComponent } from './info/info.component';
 import { MainComponent } from './main/main.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PortfolioCardComponent } from '../components/portfolio-card/portfolio-card.component';
 
 
 
@@ -16,7 +17,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     MainComponent,
     InfoComponent,
     ExperienceComponent,
-    ContactComponent
+    ContactComponent,
+    PortfolioCardComponent
   ],
   imports: [
     CommonModule,
