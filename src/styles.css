@@ -4,3 +4,13 @@
   text-decoration: none;
 
 }
+
+.wrapper {
+  width: 1920px;
+  height: 900px;
+}
+
+.container {
+  padding: 142.5px;
+  display: flex;
+}
