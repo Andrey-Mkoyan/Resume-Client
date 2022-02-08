@@ -1,0 +1,15 @@
+.wrapper {
+  position: relative;
+}
+.header{
+  position: fixed;
+  top: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.main {
+  margin-top: 20px;
+}

@@ -1,21 +1,31 @@
 .wrapper {
   width: 1920px;
+  background-color: rgb(56, 56, 56);
+  height: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .container {
   margin: 0 4%;
   display: flex;
   align-items: center;
-  color: #000;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.container>.links>.link {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+  color: #FFFEFE;
 }
 
-.container>.link {
-  margin-right: 26px;
-  text-decoration: none;
-  color: #000;
-}
-
-.container>h3 {
-  margin-right: 457px;
-
+.container>h2 {
+  font-size: 25px;
+  line-height: 29px;
+  margin-right: 704px;
+  color: #FFFEFE;
 }
