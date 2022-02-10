@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+export class PortfolioComponent implements OnInit  {
 
-}
+  cards:any = [1,2,3,4]
+
+
+  ngOnInit():void {}
+ }
