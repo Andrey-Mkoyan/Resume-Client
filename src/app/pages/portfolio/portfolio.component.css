@@ -28,5 +28,8 @@ img {
   flex-direction: row ;
   justify-content: space-between;
 }
-.portfolio_card {
+
+.no_post {
+  font-size: 20px;
+  font-weight: bold;
 }

@@ -1,1 +1,13 @@
-<div class="card"></div>
+<mat-card class="card">
+  <img mat-card-image [src]="'http://localhost:5000/' + card.img" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      {{card.desc}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>
+      <a [href]="card.url">Link</a>
+    </button>
+  </mat-card-actions>
+</mat-card>

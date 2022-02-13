@@ -7,7 +7,7 @@ import { InfoComponent } from './info/info.component';
 import { MainComponent } from './main/main.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PortfolioCardComponent } from '../components/portfolio-card/portfolio-card.component';
-
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { PortfolioCardComponent } from '../components/portfolio-card/portfolio-c
   ],
   imports: [
     CommonModule,
-
+    MatCardModule,
   ]
 })
 export class PagesModule { }

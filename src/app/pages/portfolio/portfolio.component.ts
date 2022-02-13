@@ -1,4 +1,6 @@
+import { Card } from './../../interface/card';
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -9,8 +11,23 @@ import { Component, OnInit } from '@angular/core';
 
 export class PortfolioComponent implements OnInit  {
 
-  cards:any = [1,2,3,4]
+  cards: Card[] = []
 
+  constructor(private portfolioService: PortfolioService ) {};
 
-  ngOnInit():void {}
+  ngOnInit(): void {
+    this.onGetCards()
+
+  }
+
+  onGetCards(): void {
+    this.portfolioService.getCards().subscribe(
+      (response) => {
+        console.log(response)
+        this.cards = response
+      },
+      (error: any) => console.log(error),
+      () => console.log('Done getting cards'),
+    )
+  };
  }

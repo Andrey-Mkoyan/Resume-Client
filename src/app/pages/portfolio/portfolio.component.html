@@ -5,9 +5,13 @@
       <img src="../../../assets/icons/portfolio.svg" alt="">
     </div>
     <div class="card_container">
-      <div class="portfolio_card" *ngFor="let i of cards">
-        <app-portfolio-card></app-portfolio-card>
+      <div *ngIf="cards.length > 0">
+        <div class="portfolio_card" *ngFor="let i of cards">
+          <app-portfolio-card [card]="i"></app-portfolio-card>
+        </div>
       </div>
+      <p *ngIf="cards.length === 0" class="no_post">No posts added yet</p>
     </div>
   </div>
 </div>
+
