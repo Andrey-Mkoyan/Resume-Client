@@ -4,8 +4,8 @@
       <h2>My Portfolio</h2>
       <img src="../../../assets/icons/portfolio.svg" alt="">
     </div>
-    <div class="card_container">
-      <div *ngIf="cards.length > 0">
+    <div class="card_wrapper">
+      <div class="card_container" *ngIf="cards.length > 0">
         <div class="portfolio_card" *ngFor="let i of cards">
           <app-portfolio-card [card]="i"></app-portfolio-card>
         </div>

@@ -11,4 +11,7 @@ export class PortfolioCardComponent {
 
   @Input() card!:Card
 
+  getImgPath(url:any) {
+    return url.replace('uploades\\','')
+  }
 }
