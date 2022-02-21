@@ -1,1 +1,19 @@
-<p>experience works!</p>
+<div class="wrapper">
+  <div class="container">
+    <div class="title">
+      <img src="../../../assets/icons/experience.svg" alt="experience">
+      <h2>Experience</h2>
+    </div>
+    <div class="main">
+      <div class="ex" *ngFor="let i of experiences">
+        <app-experience-lines [experience]="i"></app-experience-lines>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

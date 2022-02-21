@@ -13,6 +13,7 @@ import { SkillsPipe } from '../pipes/skills.pipe';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { SkillBarComponent } from '../components/skill-/skill-bar.component';
+import { ExperienceLinesComponent } from '../components/experience-lines/experience-lines.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SkillBarComponent } from '../components/skill-/skill-bar.component';
     SkillBarComponent,
     SkillSpinnerComponent,
     SkillsPipe,
+    ExperienceLinesComponent,
   ],
   imports: [
     CommonModule,
