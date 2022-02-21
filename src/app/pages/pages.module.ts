@@ -1,6 +1,5 @@
 import { SkillSpinnerComponent } from './../components/skill-spinner/skill-spinner.component';
 import { SkillsComponent } from './skills/skills.component';
-import { ContactComponent } from './contact/contact.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExperienceComponent } from './experience/experience.component';
@@ -22,7 +21,6 @@ import { ExperienceLinesComponent } from '../components/experience-lines/experie
     MainComponent,
     InfoComponent,
     ExperienceComponent,
-    ContactComponent,
     PortfolioCardComponent,
     SkillBarComponent,
     SkillSpinnerComponent,
