@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="img">
+    <img width="100%" height="300px"  [src]="'http://localhost:5000/public/' + getImgPath(card.img)" alt="Photo">
+  </div>
+  <div class="des">
+    <p>
+      {{ card.desc }}
+    </p>
+  </div>
+  <div class="btn">
+
+      <a target="_blanck" [href]="card.url"><button>link</button></a>
+
+  </div>
+</div>

@@ -4,3 +4,16 @@
   text-decoration: none;
 
 }
+
+.wrapper {
+  max-width: 100vw;
+
+}
+
+.container {
+  padding: 142.5px;
+  display: flex;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

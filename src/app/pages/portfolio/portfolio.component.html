@@ -1,1 +1,17 @@
-<p>portfolio works!</p>
+<div class="wrapper">
+  <div class="container portfolio_container">
+    <div class="portfolio_title">
+      <h2>My Portfolio</h2>
+      <img src="../../../assets/icons/portfolio.svg" alt="">
+    </div>
+    <div class="card_wrapper">
+      <div class="card_container" *ngIf="cards.length > 0">
+        <div class="portfolio_card" *ngFor="let i of cards">
+          <app-portfolio-card [card]="i"></app-portfolio-card>
+        </div>
+      </div>
+      <p *ngIf="cards.length === 0" class="no_post">No posts added yet</p>
+    </div>
+  </div>
+</div>
+

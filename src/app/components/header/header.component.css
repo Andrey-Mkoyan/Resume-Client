@@ -1,4 +1,4 @@
-.wrapper {
+.header_wrapper {
   width: 1920px;
   background-color: rgb(56, 56, 56);
   height: 80px;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.container {
+.header_container {
   margin: 0 4%;
   display: flex;
   align-items: center;
@@ -16,14 +16,14 @@
   flex-wrap: wrap;
   gap: 70px;
 }
-.container>.links>.link {
+.header_container>.links>.link {
   font-weight: 300;
   font-size: 25px;
   line-height: 29px;
   color: #FFFEFE;
 }
 
-.container>h2 {
+.header_container>h2 {
   font-size: 25px;
   line-height: 29px;
   margin-right: 704px;
