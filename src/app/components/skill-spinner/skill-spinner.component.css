@@ -1,0 +1,36 @@
+.spinner-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.percent {
+  position: absolute;
+  top: 22%;
+  left: 36%;
+}
+h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 41px;
+  margin: 10px 0 0 0;
+}
+
+::ng-deep .mat-progress-spinner circle{
+  stroke: black !important;
+  width: 300px !important;
+  height: 300px !important;
+
+}
+
+
+::ng-deep .mat-progress-spinner {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+::ng-deep .mat-progress-spinner svg {
+  width: 150px !important;
+  height: 150px !important;
+}

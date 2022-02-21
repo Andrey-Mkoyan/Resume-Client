@@ -1,1 +1,30 @@
-<p>skills works!</p>
+<div class="wrapper">
+  <div class="container">
+    <div class="skills_title">
+      <img src="../../.././assets/icons/skills 1.svg" alt="skill">
+      <h2>Skills</h2>
+    </div>
+    <div class="main">
+      <div class="proftional-skills">
+        <div class="title">
+          <h3>Professional Skills</h3>
+        </div>
+        <div class="skill-item" *ngFor="let i of skills | skills : false">
+          <app-skill-bar [skill]="i"></app-skill-bar>
+        </div>
+      </div>
+
+      <div class="additioanl-skills">
+        <div class="title additional-title">
+          <h3>Additional Skills</h3>
+        </div>
+        <div class="spinners">
+          <div class="skill-item_2" *ngFor="let i of skills | skills : true">
+            <app-skill-spinner [skill]="i"></app-skill-spinner>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

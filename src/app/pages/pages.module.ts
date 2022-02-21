@@ -1,3 +1,4 @@
+import { SkillSpinnerComponent } from './../components/skill-spinner/skill-spinner.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgModule } from '@angular/core';
@@ -8,7 +9,10 @@ import { MainComponent } from './main/main.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PortfolioCardComponent } from '../components/portfolio-card/portfolio-card.component';
 import { MatCardModule } from '@angular/material/card';
-
+import { SkillsPipe } from '../pipes/skills.pipe';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { SkillBarComponent } from '../components/skill-/skill-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,16 @@ import { MatCardModule } from '@angular/material/card';
     InfoComponent,
     ExperienceComponent,
     ContactComponent,
-    PortfolioCardComponent
+    PortfolioCardComponent,
+    SkillBarComponent,
+    SkillSpinnerComponent,
+    SkillsPipe,
   ],
   imports: [
     CommonModule,
     MatCardModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule
   ]
 })
 export class PagesModule { }
