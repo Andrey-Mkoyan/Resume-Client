@@ -1,0 +1,29 @@
+.wrapper {
+  background: #bdbdbd;
+  height: 95vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ex {
+  margin-top: 100px;
+  color: black;
+  font-size: 50px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -65px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  color: #FFFEFE;
+}
+

@@ -29,6 +29,7 @@
 p {
   font-size: 20px;
   line-height: 23px;
+  margin: 0;
 }
 
 .text_hello {
@@ -68,4 +69,8 @@ p {
   line-height: 25px;
   color: #FFFFFF;
   margin-top: 55px;
+}
+
+.name {
+  margin: 8px 0;
 }

@@ -1,4 +1,3 @@
-import { ContactComponent } from './pages/contact/contact.component';
 import { InfoComponent } from './pages/info/info.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
@@ -14,7 +13,6 @@ const routes: Routes = [
   {path:'portfolio', component: PortfolioComponent},
   {path:'experience', component: ExperienceComponent},
   {path:'info&facts', component: InfoComponent},
-  {path:'contact', component: ContactComponent},
   {path: '**', redirectTo:'/main'}
 ];
 
